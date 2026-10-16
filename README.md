@@ -12,7 +12,9 @@ Razorpay Node SDK.
 3. **Razorpay → `POST /razorpay/webhook`**. The server checks the signature, then marks the
    order `paid` (`payment.captured`, `order.paid`) or `failed` (`payment.failed`).
 
-`GET /request/orderStatus/:orderId` shows what the webhook recorded.
+`GET /request/orderStatus/:orderId` shows what the webhook recorded, and `GET /request/orders`
+lists the 50 newest orders for the app's payment history. There is no sign-in yet, so that list
+is everyone's orders: add customers before going live.
 
 ## Run
 
