@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-/** Connects to the MongoDB at MONGODB_URI. */
+/** Connects to the MongoDB at MONGO_URI (from .env). */
 module.exports = async function connectDb() {
 
   try {

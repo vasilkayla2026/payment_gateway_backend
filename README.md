@@ -24,7 +24,7 @@ cp .env.example .env     # then fill in the values
 npm run dev              # restarts on changes; `npm start` for a plain run
 ```
 
-You need a MongoDB (local, Docker or Atlas) at `MONGODB_URI`.
+You need a MongoDB (local, Docker or Atlas) at `MONGO_URI`.
 
 ## Razorpay Dashboard (test mode first)
 
